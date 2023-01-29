@@ -1,38 +1,114 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(63, 63, 185);
+}
+
+.Header{
   text-align: center;
+  color: rgb(20, 4, 4);
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Footer{
+  text-align: center;
+  margin-top: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Main{
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.active > h1{
+  background-color: rgb(74, 21, 124);
+  height: 200px;
+  transition: 2s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.confirmed > h1{
+  background-color: rgb(54, 15, 91);
+  height: 200px;
+  transition: 2s ease;
+}
+
+.deaths > h1{
+  background-color: rgb(32, 9, 54);
+  height: 200px;
+  transition: 2s ease;
+}
+
+.deltaconfirmed > h1{
+  background-color: rgb(18, 5, 31);
+  height: 200px;
+  transition: 2s ease;
+}
+
+.deltadeaths > h1{
+  background-color: rgb(17, 5, 28);
+  height: 200px;
+  transition: 2s ease;
+}
+
+.deltarecovered > h1{
+  background-color: rgb(26, 7, 43);
+  height: 200px;
+  transition: 2s ease;
+}
+
+.recovered > h1{
+  background-color: rgb(50, 14, 83);
+  height: 200px;
+  transition: 2s ease;
+}
+
+.time > h1{
+  background-color: rgb(74, 21, 124);
+  height: 200px;
+  transition: 2s ease;
+}
+
+/* hover */
+.active > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
+}
+
+.confirmed > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
+}
+
+.deaths > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
+}
+
+.deltaconfirmed > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
+}
+
+.deltadeaths > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
+}
+
+.deltarecovered > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
+}
+
+.recovered > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
+}
+
+.time > h1:hover{
+  background-color: rgb(92, 22, 22);
+  transition: 2s ease;
 }
